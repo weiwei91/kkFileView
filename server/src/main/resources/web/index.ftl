@@ -36,13 +36,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://kkfileview.keking.cn" target='_blank'>kkFileView</a>
+          <a class="navbar-brand" href="./index" target='_blank'>个人文件分享站</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="./index">首页</a></li>
-            <li><a href="./record">版本发布记录</a></li>
-            <li><a href="./comment">相关交流</a></li>
+<#--            <li><a href="./record">版本发布记录</a></li>-->
+<#--            <li><a href="./comment">相关交流</a></li>-->
           </ul>
         </div>
       </div>
@@ -50,25 +50,25 @@
 
     <div class="container theme-showcase" role="main">
       <#--  接入说明  -->
-      <div class="page-header">
-        <h1>接入说明</h1>
-      </div>
-      <div class="well">
-        <div style="font-size: 16px;">
-            如果你的项目需要接入文件预览项目，达到对docx、excel、ppt、jpg等文件的预览效果，那么通过在你的项目中加入下面的代码就可以成功实现：
-            <p style="background-color: #2f332a;color: #cccccc;font-size: 14px;padding:10px;margin-top:10px;">
-                var url = 'http://127.0.0.1:8080/file/test.txt'; //要预览文件的访问地址 <br>
-                window.open('http://127.0.0.1:8012/onlinePreview?url='+encodeURIComponent(base64Encode(url)));
-            </p>
-        </div>
-        <div style="font-size: 16px;">
-            新增多图片同时预览功能，接口如下：
-            <p style="background-color: #2f332a;color: #cccccc;font-size: 14px;padding:10px;margin-top:10px;">
-                var fileUrl =url1+'|'+url2;//多url使用'|'字符隔开 <br>
-                window.open('http://127.0.0.1:8012/picturesPreview?urls='+encodeURIComponent(base64Encode(fileUrl)));
-            </p>
-        </div>
-      </div>
+<#--      <div class="page-header">-->
+<#--        <h1>个人文件分享站</h1>-->
+<#--      </div>-->
+<#--      <div class="well">-->
+<#--        <div style="font-size: 16px;">-->
+<#--            如果你的项目需要接入文件预览项目，达到对docx、excel、ppt、jpg等文件的预览效果，那么通过在你的项目中加入下面的代码就可以成功实现：-->
+<#--            <p style="background-color: #2f332a;color: #cccccc;font-size: 14px;padding:10px;margin-top:10px;">-->
+<#--                var url = 'http://127.0.0.1:8080/file/test.txt'; //要预览文件的访问地址 <br>-->
+<#--                window.open('http://127.0.0.1:8012/onlinePreview?url='+encodeURIComponent(base64Encode(url)));-->
+<#--            </p>-->
+<#--        </div>-->
+<#--        <div style="font-size: 16px;">-->
+<#--            新增多图片同时预览功能，接口如下：-->
+<#--            <p style="background-color: #2f332a;color: #cccccc;font-size: 14px;padding:10px;margin-top:10px;">-->
+<#--                var fileUrl =url1+'|'+url2;//多url使用'|'字符隔开 <br>-->
+<#--                window.open('http://127.0.0.1:8012/picturesPreview?urls='+encodeURIComponent(base64Encode(fileUrl)));-->
+<#--            </p>-->
+<#--        </div>-->
+<#--      </div>-->
       <#--  输入下载地址预览文件  -->
       <div class="panel panel-success">
         <div class="panel-heading">
